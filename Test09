@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //mohasebeye mohit v masahat
+            float mohit;
+            int r = int.Parse(Console.ReadLine());
+            mohit = 13.4f * r * 2;
+            Console.WriteLine(mohit);
+            //mohasebeye masahat
+            float masahat;
+            masahat=13.4f*r*r;
+            Console.WriteLine(masahat);
+            Console.ReadKey();
+        }
+    }
+}
